@@ -1,0 +1,88 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg,#fe8dc6, #fed1c7);
+    display: grid;
+    place-items: center;
+}
+.main #creator{
+    position: absolute;
+    bottom: 0;
+}
+.center{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#head{
+    text-align: center;
+    color:#000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.center input{
+    width: 60%;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+.center .inputs{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beshify-section{
+    width: 80%;
+    height: 130px;
+    margin-right: 10px;
+    background-color: white;
+    margin-top: 80px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: none;
+}
+.beshify-section .copy{
+    margin-right: 5%;
+    padding: 3px 5px;
+    font-size: 10px;
+}
+#para{
+    font-weight: 500;
+    border: none;
+}
+.copied{
+    margin-top: 10px;
+    color: green;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:500px) {
+    .center{
+        width: 430px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .center{
+        width: 350px;
+    }
+}
